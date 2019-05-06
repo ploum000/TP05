@@ -70,4 +70,4 @@ def detaille_note():
         success_general += success
     print('='*20)
     print('Globalement: {}/{}'.format(success_general,total_general))
-    print('Note indicative: {}/20'.format(round(success_general/total_general*20,2)))
+    return 'Note indicative: {}/20'.format(round(success_general/total_general*20,2))
